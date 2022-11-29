@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.Form__form {
+  margin-top: 25px;
+}
+
+input {
+  width: 400px;
+  border-radius: 15px;
+  height: 40px;
+  font-size: 25px;
+  border: 1px solid #000;
+  text-indent: 10px;
+  outline: none;
+}
+
+button {
+  width: 90px;
+  margin-left: 10px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  height: 45px;
+  position: relative;
+  bottom: 3px;
+  cursor: pointer;
+  transition: .25s;
+  background-color: #e6e7e8;
+}
+
+button:hover {
+  background-color: white;
+}
+
+.blue_row {
+  width: 500px;
+  height: 50px;
+  background-color: lightblue;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto;
+  padding: 25px;
+  border-radius: 15px;
+  transition: .2s;
+}
+
+.Item__item {
+  margin-right: 15px;
+}
+
+.icon {
+  position: relative;
+  top: 8px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.icon-cancel {
+  display: none;
+}
+
+
+
+.green_row {
+  width: 500px;
+  height: 50px;
+  background-color: lightgreen;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto;
+  padding: 25px;
+  border-radius: 15px;
+  transition: .2s;
+
+}
+
+
+
+.y {
+  display: block;
+  color: white;
+}
+
+.n {
+  display: none;
+}
+
+.completed_counter-hidden {
+  display: none;
+}
+.completed_counter {
+  display: block;
+  color: white;
+
+}
+
+.counter {
+  color: white;
+}
